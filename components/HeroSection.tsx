@@ -47,7 +47,7 @@ export default function Hero() {
         <h1 className="hero-animate opacity-0 translate-y-8 transition-all duration-700 text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-playfair text-white mb-2">
           Sai Carnation
         </h1>
-        <h2 className="hero-animate opacity-0 translate-y-8 transition-all duration-700 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-greatVibes italic text-white mb-6">
+        <h2 className="hero-animate opacity-0 translate-y-8 transition-all duration-700 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-greatVibes italic  text-white mb-6">
           Farmhouse
         </h2>
         <p className="hero-animate opacity-0 translate-y-8 transition-all duration-700 text-lg sm:text-xl md:text-2xl text-white/90 max-w-2xl mb-10 leading-relaxed">
