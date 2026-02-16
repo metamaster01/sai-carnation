@@ -1,0 +1,68 @@
+'use client';
+
+import { useEffect } from 'react';
+import Lenis from '@studio-freight/lenis';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/HeroSection';
+
+export default function Home() {
+  // useEffect(() => {
+  //   // Initialize Lenis smooth scroll
+  //   const lenis = new Lenis({
+  //     duration: 1.2,
+  //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  //     smoothWheel: true,
+  //   });
+
+  //   function raf(time: number) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
+
+  //   requestAnimationFrame(raf);
+
+  //   return () => {
+  //     lenis.destroy();
+  //   };
+  // }, []);
+
+  return (
+    <main className="relative bg-[#0a0f0d]">
+      {/* Navbar Component */}
+      <Navbar />
+
+      {/* Hero Component */}
+      <Hero />
+
+      {/* Placeholder sections for navigation - REMOVE THESE LATER WHEN YOU ADD REAL SECTIONS */}
+      <section id="about" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-4xl text-white font-playfair mb-4">About Section</h2>
+          <p className="text-white/60 font-poppins">Coming next...</p>
+        </div>
+      </section>
+
+      <section id="services" className="min-h-screen bg-[#1a3a2e] flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-4xl text-white font-playfair mb-4">Services Section</h2>
+          <p className="text-white/60 font-poppins">Coming next...</p>
+        </div>
+      </section>
+
+      <section id="amenities" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-4xl text-white font-playfair mb-4">Amenities Section</h2>
+          <p className="text-white/60 font-poppins">Coming next...</p>
+        </div>
+      </section>
+
+      <section id="contact" className="min-h-screen bg-[#1a3a2e] flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-4xl text-white font-playfair mb-4">Contact Section</h2>
+          <p className="text-white/60 font-poppins">Coming next...</p>
+        </div>
+      </section>
+    </main>
+  );
+}
+
