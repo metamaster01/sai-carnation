@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { Playfair_Display, Poppins, Great_Vibes } from 'next/font/google'
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -53,6 +54,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} ${poppins.variable} ${playfair.variable} antialiased`}
       >
         {children}
+        <WhatsAppIcon />
       </body>
     </html>
   );
