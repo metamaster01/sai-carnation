@@ -8,6 +8,11 @@ import About from '@/components/AboutSection';
 import Services from '@/components/ServiceSection';
 import Menu from '@/components/MenuSection';
 import WhyChoose from '@/components/WhyChooseSection';
+import Amenities from '@/components/Amenities';
+import Testimonials from '@/components/Testimonial';
+import InfoSection from '@/components/InfoSection';
+import CTASection from '@/components/CtaSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   // useEffect(() => {
@@ -59,19 +64,24 @@ export default function Home() {
       <Menu />
       <WhyChoose />
 
-      <section id="amenities" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
+      {/* <section id="amenities" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-4xl text-white font-playfair mb-4">Amenities Section</h2>
           <p className="text-white/60 font-poppins">Coming next...</p>
         </div>
-      </section>
+      </section> */}
+      <Amenities />
+      <Testimonials />
 
-      <section id="contact" className="min-h-screen bg-[#1a3a2e] flex items-center justify-center">
+      {/* <section id="contact" className="min-h-screen bg-[#1a3a2e] flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-4xl text-white font-playfair mb-4">Contact Section</h2>
           <p className="text-white/60 font-poppins">Coming next...</p>
         </div>
-      </section>
+      </section> */}
+      <InfoSection />
+      <CTASection />
+      <Footer />
     </main>
   );
 }

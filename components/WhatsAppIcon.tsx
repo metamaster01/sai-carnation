@@ -7,7 +7,7 @@ export default function WhatsAppIcon() {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleWhatsAppClick = () => {
-        const phoneNumber = '1234567890'; // Replace with your WhatsApp number
+        const phoneNumber = '9595524424'; // Replace with your WhatsApp number
         const message = 'Hello! I am interested in your services.'; // Default message
         const encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

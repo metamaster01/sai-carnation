@@ -55,11 +55,11 @@ export default function Navbar() {
             {/* Right - Contact (Desktop) / Menu (Mobile) */}
             <div className="flex items-center gap-4 border border-white rounded-full px-4 py-2">
               <a
-                href="tel:+919347844093"
+                href="tel:+919595524424"
                 className="hidden lg:flex items-center gap-2 text-white hover:text-emerald-300 transition-colors"
               >
                 <Phone className="w-4 h-4 " />
-                <span className="text-sm">+91 9347 844 093</span>
+                <span className="text-sm">+91 9595 524 424</span>
               </a>
               
               {/* Mobile Menu Button */}
@@ -154,11 +154,11 @@ export default function Navbar() {
             </button>
             
             <a
-              href="tel:+919347844093"
+              href="tel:+919595524424"
               className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mt-8"
             >
               <Phone className="w-4 h-4" />
-              <span className="text-sm">+91 9347 844 093</span>
+              <span className="text-sm">+91 9595 524 424</span>
             </a>
           </div>
         </div>
