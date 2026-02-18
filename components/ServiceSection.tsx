@@ -101,6 +101,10 @@ export default function Services() {
     }
   }, [])
 
+   const scrollTo = (id: string) => {
+    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section id="services" className="relative bg-zinc-50 py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,7 +120,7 @@ export default function Services() {
             </p>
           </div>
           
-          <button className="self-start lg:self-auto flex items-center gap-2 text-black hover:gap-3 transition-all duration-300 group">
+          <button onClick={() => scrollTo('amenities')} className="self-start lg:self-auto flex items-center gap-2 text-black hover:gap-3 transition-all duration-300 group">
             <span className="uppercase tracking-wider text-sm font-medium">View More</span>
             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>

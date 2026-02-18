@@ -113,7 +113,10 @@ export default function Navbar() {
                   Amenities
                 </button>
               <button
-                onClick={() => scrollTo('contact')}
+                onClick={() => {
+                  const message = "Hello! I'd like to book my stay at Sai Carnation Farmhouse.";
+                  window.open(`https://wa.me/919595524424?text=${encodeURIComponent(message)}`, '_blank');
+                }}
                 className="px-6 py-2 bg-emerald-700 hover:bg-emerald-600 text-white rounded-full text-sm uppercase tracking-wider transition-colors"
               >
                 Book Your Stay

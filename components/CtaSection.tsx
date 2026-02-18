@@ -106,7 +106,12 @@ export default function CTASection() {
           getaways, family stays, and private celebrations.
         </p>
         <button
-          onClick={scrollToContact}
+          onClick={() => {
+            const phoneNumber = '919595524424'
+            const message = 'Hi, I would like to know more and book your farmhouse services.'
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+            window.open(whatsappUrl, '_blank')
+          }}
           className="cta-btn group relative inline-flex items-center gap-3 border-2 border-white text-white
             px-10 py-4 text-sm uppercase tracking-[0.2em] font-medium
             hover:bg-white hover:text-emerald-900 transition-all duration-300 overflow-hidden"

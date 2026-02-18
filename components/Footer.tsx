@@ -155,10 +155,12 @@ export default function Footer() {
 
             {/* Book CTA */}
             <a
-              href="tel:+919595524424"
+              href="https://wa.me/919595524424?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20booking%20a%20stay%20at%20Sai%20Carnation%20Farmhouse.%20Please%20provide%20me%20with%20available%20dates%20and%20pricing%20details."
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block mt-2 px-6 py-3 bg-emerald-700 hover:bg-emerald-600
-                text-white text-sm uppercase tracking-wider rounded-full
-                transition-all duration-300 hover:shadow-lg hover:shadow-emerald-900/30 hover:scale-105"
+              text-white text-sm uppercase tracking-wider rounded-full
+              transition-all duration-300 hover:shadow-lg hover:shadow-emerald-900/30 hover:scale-105"
             >
               Book Your Stay
             </a>

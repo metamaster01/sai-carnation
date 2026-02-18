@@ -54,7 +54,12 @@ export default function Hero() {
           A perfect escape into nature – luxury, comfort & calm.
         </p>
         <button
-          onClick={() => scrollTo('contact')}
+          onClick={() => {
+            const phoneNumber = '919595524424'
+            const message = 'Hi! I am interested in booking a stay at Sai Carnation Farmhouse. Please provide availability and pricing details.'
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+            window.open(whatsappUrl, '_blank')
+          }}
           className="hero-animate opacity-0 translate-y-8 transition-all duration-700 px-8 py-4 bg-emerald-700 hover:bg-emerald-600 text-white rounded-full text-sm uppercase tracking-widest hover:scale-105 transition-all shadow-xl"
         >
           Book Your Stay

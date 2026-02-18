@@ -612,7 +612,14 @@ export default function About() {
                 text-white text-sm uppercase tracking-widest
                 hover:text-emerald-900 transition-colors duration-300"
             >
-              <span className="relative z-10">Know More About Us</span>
+                <a
+                  href="https://wa.me/919595524424?text=Hi%20Sai%20Carnation%20Farmhouse%2C%20I%20would%20like%20to%20know%20more%20about%20your%20premium%20farmhouse%20services%20and%20amenities.%20Please%20share%20more%20details.%20Thank%20you!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative z-10"
+                >
+                  Know More About Us
+                </a>
               <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300 -z-0" />
             </button>
           </div>

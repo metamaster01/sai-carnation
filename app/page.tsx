@@ -61,7 +61,7 @@ export default function Home() {
       </section> */}
 
       <Services />
-      <Menu />
+      {/* <Menu /> */}
       <WhyChoose />
 
       {/* <section id="amenities" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
