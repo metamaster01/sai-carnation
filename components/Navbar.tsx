@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Menu, X, Phone } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -44,6 +45,13 @@ export default function Navbar() {
 
             {/* Center - Logo */}
             <div className="flex-1 lg:flex-none flex justify-center lg:justify-center">
+              <Image
+                src="/sai-carnation.png"
+                alt="Sai Carnation Logo"
+                width={40}
+                height={40}
+                className="w-14 h-14 lg:w-16 lg:h-16 mr-6"
+              />
               <button 
                 onClick={() => scrollTo('hero')}
                 className="text-white font-greatVibes italic text-3xl lg:text-5xl hover:text-emerald-300 transition-colors"
