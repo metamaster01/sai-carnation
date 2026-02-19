@@ -138,7 +138,7 @@ export default function Footer() {
             {/* Social icons */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="#"
+                href="https://www.facebook.com/SaiCarnationFarms/"
                 aria-label="Facebook"
                 className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:border-emerald-600 hover:bg-emerald-600 hover:text-white text-gray-500 transition-all duration-300 group"
               >
