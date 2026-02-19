@@ -83,19 +83,19 @@ export default function Footer() {
             <h4 className="text-xs uppercase tracking-widest text-gray-400 mb-6">Find Us</h4>
             <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238442.5453024505!2d78.86488539931713!3d21.14619827780832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x7a35af5f9ce0ec28!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708000000000!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Sai Carnation Farmhouse location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.0272461650698!2d78.78182679999999!3d21.1114799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4f311224bd531%3A0xaf96d99a0e52150!2sSai%20Carnation%20Farms!5e0!3m2!1sen!2sin!4v1771497252372!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Sai Carnation Farmhouse location"
               />
             </div>
             <div className="flex items-center gap-2 mt-3 text-gray-500 text-sm">
               <MapPin className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-              <span>Nagpur, Maharashtra</span>
+              <span>CHICHOLI GAON, VILLAGE, near FUN N FOOD, Nagpur, Maharashtra 440023</span>
             </div>
           </div>
 
@@ -111,10 +111,10 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors flex-shrink-0">
                   <Mail className="w-4 h-4 text-emerald-700" />
                 </div>
-                <span className="text-sm">info@saicarnation.ht</span>
+                <span className="text-sm">info@saicarnationfarms.in</span>
               </a>
 
-              <a
+              {/* <a
                 href="tel:+393471644693"
                 className="flex items-center gap-3 text-gray-600 hover:text-emerald-700 transition-colors group"
               >
@@ -122,7 +122,7 @@ export default function Footer() {
                   <Phone className="w-4 h-4 text-emerald-700" />
                 </div>
                 <span className="text-sm">+39 347 164 4693</span>
-              </a>
+              </a> */}
 
               <a
                 href="tel:+919595524424"
@@ -145,7 +145,7 @@ export default function Footer() {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/sai_carnation/"
                 aria-label="Instagram"
                 className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:border-emerald-600 hover:bg-emerald-600 hover:text-white text-gray-500 transition-all duration-300"
               >
