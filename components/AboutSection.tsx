@@ -413,8 +413,10 @@ if (typeof window !== 'undefined') {
 
 const images = [
   '/about-1.png',
-  '/service-1.png',
-  '/amenities-1.jpg',
+  '/image-3.jpg',
+  '/image-11.jpg',
+  '/image-5.jpg',
+  '/image-7.jpg',
 ]
 
 const stats = [

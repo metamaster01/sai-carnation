@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2 mt-3 text-gray-500 text-sm">
               <MapPin className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-              <span>CHICHOLI GAON, VILLAGE, near FUN N FOOD, Nagpur, Maharashtra 440023</span>
+              <span>CHICHOLI GAON, VILLAGE, NEAR FUN N FOOD, Nagpur, Maharashtra 440023</span>
             </div>
           </div>
 

@@ -272,7 +272,7 @@ const amenities: Amenity[] = [
     title: 'Stay & Comfort',
     description:
       'Spacious, fully furnished rooms designed for relaxation, privacy, and comfort—perfect for families and groups.',
-    image: '/amenities-1.jpg',
+    image: '/image-2.jpg',
     icon: <BedDouble className="w-6 h-6 sm:w-8 sm:h-8 text-white/80" />,
   },
   {
@@ -280,23 +280,23 @@ const amenities: Amenity[] = [
     title: 'Events & Celebrations',
     description:
       'Host birthdays, private parties, family get-togethers, and small celebrations in a serene farmhouse setting with lawn & pool access.',
-    image: '/amenities-1.jpg',
+    image: '/image-7.jpg',
     icon: <PartyPopper className="w-6 h-6 sm:w-8 sm:h-8 text-white/80" />,
   },
   {
     id: 3,
     title: 'Leisure & Outdoor Fun',
     description:
-      'Enjoy a private swimming pool, lush green lawns, outdoor seating, and open-air vibes—ideal for day & night enjoyment.',
-    image: '/amenities-1.jpg',
+      'Outdoor and kids activity, rides, play area and open-air vibes—ideal for day & night enjoyment.',
+    image: '/image-8.jpg',
     icon: <Waves className="w-6 h-6 sm:w-8 sm:h-8 text-white/80" />,
   },
   {
     id: 4,
-    title: 'Food & BBQ ( On Request )',
+    title: 'Swimming Pool & Lawn',
     description:
-      'Fresh, hygienic food options and BBQ setups available to elevate your stay and celebrations.',
-    image: '/amenities-1.jpg',
+      '2 spacious private swimming pools and a large lawn area for relaxation, fun, and memorable moments.',
+    image: '/image-11.jpg',
     icon: <UtensilsCrossed className="w-6 h-6 sm:w-8 sm:h-8 text-white/80" />,
   },
 ]

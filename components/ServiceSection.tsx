@@ -12,29 +12,40 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: 'Weekend Staycation',
-    description: 'Relax, unwind, and enjoy a peaceful escape from city life.',
-    image: '/service-1.png',
+    title: 'Luxury Weekend Staycation',
+    description:
+      'Escape the city rush and relax in our 3-room private villa with two swimming pools, lush green lawns, and peaceful surroundings in Chincholi, Nagpur.',
+    image: '/image-2.jpg',
   },
   {
-    title: 'Corporate Events',
-    description: 'Perfect venue for team building, meetings, and corporate gatherings.',
-    image: '/service-1.png',
+    title: 'Private Pool Parties',
+    description:
+      'Host unforgettable poolside celebrations with access to two spacious swimming pools, open garden areas, and complete privacy for your group.',
+    image: '/image-5.jpg',
   },
   {
-    title: 'Private Celebrations',
-    description: 'Host unforgettable birthdays, anniversaries, and special occasions.',
-    image: '/service-1.png',
+    title: 'Family Getaways & Reunions',
+    description:
+      'Perfect destination for family gatherings with a kids playground, fun activities, large open garden, and comfortable villa stay for all age groups.',
+    image: '/image-9.jpg',
   },
   {
-    title: 'Wedding Functions',
-    description: 'Beautiful outdoor setting for pre-wedding shoots and intimate ceremonies.',
-    image: '/service-1.png',
+    title: 'Birthday & Special Celebrations',
+    description:
+      'Celebrate birthdays, anniversaries, and special occasions in a beautiful farmhouse setting with open lawns and customizable decoration space.',
+    image: '/image-14.jpg',
   },
   {
-    title: 'Family Gatherings',
-    description: 'Spacious lawns and modern amenities for memorable family reunions.',
-    image: '/service-1.png',
+    title: 'Pre-Wedding & Private Events',
+    description:
+      'A scenic garden venue ideal for pre-wedding shoots, intimate functions, and private events with a peaceful and photogenic environment.',
+    image: '/image-15.jpg',
+  },
+  {
+    title: 'Self-Cooking & Group Stays',
+    description:
+      'Fully equipped kitchen with basic utilities for self-cooking, giving you complete freedom and privacy during your stay.',
+    image: '/image-4.jpg',
   },
 ]
 
