@@ -13,6 +13,7 @@ import Testimonials from '@/components/Testimonial';
 import InfoSection from '@/components/InfoSection';
 import CTASection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
+import Gallery from '@/components/Gallery';
 
 export default function Home() {
   // useEffect(() => {
@@ -62,6 +63,7 @@ export default function Home() {
 
       <Services />
       {/* <Menu /> */}
+      <Gallery />
       <WhyChoose />
 
       {/* <section id="amenities" className="min-h-screen bg-[#0f1e17] flex items-center justify-center">
