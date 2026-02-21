@@ -233,25 +233,25 @@ export default function Gallery() {
         </div>
 
         {/* View More Button */}
-        <div className="flex justify-center mt-12 lg:mt-16">
+        {/* <div className="flex justify-center mt-12 lg:mt-16">
           <button className="group relative px-8 py-3.5 border-2 border-white/30 text-white rounded-full hover:border-white hover:bg-white hover:text-[#628B35] transition-all duration-300 text-sm uppercase tracking-widest font-medium overflow-hidden">
             <span className="relative z-10">View All Photos</span>
             <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 -z-0" />
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Custom play button cursor for videos */}
       {hoveredVideo !== null && (
         <div
-          className="play-cursor pointer-events-none fixed z-50 flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-2xl"
+          className="play-cursor pointer-events-none fixed z-50 flex items-center justify-center w-8 h-8 rounded-full bg-white shadow-2xl"
           style={{
             left: `${cursorPos.x}px`,
             top: `${cursorPos.y}px`,
             transform: 'translate(-50%, -50%)',
           }}
         >
-          <Play className="w-7 h-7 text-[#628B35] fill-[#628B35] translate-x-0.5" />
+          <Play className="w-4 h-4 text-[#628B35] fill-[#628B35] translate-x-0.5" />
         </div>
       )}
 
